@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  height: 800px;
+  overflow: hidden;
+  justify-content: center;
+  margin: 0
+}
+
+.container{
+  display: flex;
+  width: 900px;
+}
+
+.cont{
+  background-image: url(./image/Chandelure.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-radius: 50px;
+  color: rgb(189, 129, 248);
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.img2{
+  background-image: url(./image/Eevee.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-radius: 50px;
+  color: rgb(105, 34, 34);
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.img3{
+  background-image: url(./image/Eeveelutions.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-radius: 50px;
+  color: rgb(67, 0, 250);
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.img4{
+  background-image: url(./image/Hoenn3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  border-radius: 50px;
+  color: rgb(0, 205, 85);
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+
+.cont h1{
+  opacity: 0;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.cont:active h1{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.img2 h1{
+  opacity: 0;
+  position: absolute;
+  left: 20px;
+}
+
+.img2:active h1{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.img3 h1{
+  opacity: 0;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.img3:active h1{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.img4 h1{
+  opacity: 0;
+  position: absolute;
+  left: 20px;
+}
+
+.img4:active h1{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.cont:active{
+  flex: 5;
+}
+
+.img2:active{
+  flex: 5;
+}
+
+.img3:active{
+  flex: 5;
+}
+
+.img4:active{
+  flex: 5;
+}
